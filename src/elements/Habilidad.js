@@ -6,7 +6,7 @@ export default function Habilidad(props) {
     function handleNivel(val){
         let temp = nivel + val;
         if(temp >= 0 && temp <= props.max_nivel){
-           if(props.PH >= 0 && val > 0){
+           if(props.PH > 0 && val > 0){
             setNivel(temp)
             props.editPH(props.PH-1)
             if(props.afecta_vida)

@@ -4,7 +4,7 @@ import BoxAtributo from './BoxAtributo';
 
 export default function PanelPrincipal() {
 
-    const [puntosAtributos, setpuntosAtributos] = useState(20)
+    const [puntosAtributos, setpuntosAtributos] = useState(24)
     const [puntosHabilidades, setpuntosHabilidades] = useState(40)
     const [vidaPJ, setvidaPJ] = useState(0)
     
