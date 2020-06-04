@@ -10,10 +10,14 @@ export default function BoxAtributo(props) {
             if(val > 0 && props.PA > 0){
                 props.editPA(props.PA-1);
                 setnivel(temp);
+                if(props.afecta_vida)
+                    props.editVida(props.vida+1)
             }
             else if(val < 0 && props.PA <= 20){
                 props.editPA(props.PA+1)
                 setnivel(temp)
+                if(props.afecta_vida)
+                    props.editVida(props.vida-1)
             }
                 
     }
@@ -22,7 +26,7 @@ export default function BoxAtributo(props) {
         <div className="boxAtributo">
             <center><h3>{props.nombre} <span>{nivel}</span></h3></center>
             <hr />
-            {props.children}
+            
             <hr />
             <center><button onClick={() => handleNivel(1)}>Subir nivel</button></center>
             <center><button onClick={() => handleNivel(-1)}>Bajar nivel</button></center>

@@ -25,8 +25,10 @@ export default function PanelPrincipal() {
                         editPH={(val) => setpuntosHabilidades(val)}
                         PA={puntosAtributos}
                         PH={puntosHabilidades}
+                        afecta_vida={atributo.afecta_vida}
                         vida={vidaPJ}
                         editVida={setvidaPJ}
+                        habilidades={atributo.habilidades}
                         
                     />
                 
