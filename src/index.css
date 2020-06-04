@@ -36,3 +36,7 @@ code {
   margin: 10px;
 
 }
+
+.habilidad {
+  display: inline-block;
+}

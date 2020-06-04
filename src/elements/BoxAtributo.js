@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Habilidad from './Habilidad'
 
 export default function BoxAtributo(props) {
     
@@ -24,9 +25,22 @@ export default function BoxAtributo(props) {
 
     return (
         <div className="boxAtributo">
-            <center><h3>{props.nombre} <span>{nivel}</span></h3></center>
+            <center><h3 title={props.descripcion}>{props.nombre} <span>{nivel}</span></h3></center>
             <hr />
-            
+            {props.habilidades.map((habilidad) => (
+                <Habilidad 
+                    key={habilidad.nombre} 
+                    max_nivel={habilidad.max_level}
+                    descripcion={habilidad.descripcion} 
+                    vida={props.vida} 
+                    editVida={props.editVida} 
+                    afecta_vida={habilidad.afecta_vida}
+                    PH={props.PH}
+                    editPH={props.editPH}
+                    >
+                        {habilidad.nombre}
+                </Habilidad>
+            ))}
             <hr />
             <center><button onClick={() => handleNivel(1)}>Subir nivel</button></center>
             <center><button onClick={() => handleNivel(-1)}>Bajar nivel</button></center>
