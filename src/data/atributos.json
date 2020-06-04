@@ -1,0 +1,239 @@
+{
+    "atributos": [
+        {
+            "id": 1,
+            "nombre": "Cuerpo",
+            "max_level": 8,
+            "afecta_vida": true,
+            "habilidades": [
+                {
+                    "nombre": "Cuerpo a cuerpo",
+                    "max_level": 10,
+                    "descripcion": "Lalalala lelele chi chi chi",
+                    "afecta_vida": false
+                },
+                {
+                    "nombre": "Atletismo",
+                    "max_level": 10,
+                    "descripcion":"Lalalala lelele chi chi chi",
+                    "afecta_vida": false
+                },
+                {
+                    "nombre": "Fuerza",
+                    "max_level":10,
+                    "descripcion": "pa que preguntas tio",
+                    "afecta_vida": false
+                },
+                {
+                    "nombre": "Resistencia",
+                    "max_level":10,
+                    "descripcion": "wuoa que resistente",
+                    "afecta_vida": true
+                },
+                {
+                    "nombre": "Vigor",
+                    "max_level":10,
+                    "descripcion": "Que vigoroso eres",
+                    "afecta_vida": false
+                }
+                
+            ]
+        },
+        {
+            "id": 2,
+            "nombre": "Agilidad",
+            "max_level": 8,
+            "afecta_vida": false,
+            "habilidades": [
+                {
+                    "nombre": "Armas de Proyectiles",
+                    "max_level": 10,
+                    "descripcion": "",
+                    "afecta_vida": false
+                },
+                {
+                    "nombre": "Destreza",
+                    "max_level": 10,
+                    "descripcion":"",
+                    "afecta_vida": false
+                },
+                {
+                    "nombre": "Fabricar",
+                    "max_level":10,
+                    "descripcion": "",
+                    "afecta_vida": false
+                },
+                {
+                    "nombre": "Movilidad",
+                    "max_level":10,
+                    "descripcion": "",
+                    "afecta_vida": false
+                },
+                {
+                    "nombre": "Sigilo",
+                    "max_level":10,
+                    "descripcion": "",
+                    "afecta_vida": false
+                }
+                
+            ]
+        },
+        {
+            "id": 3,
+            "nombre": "CARISMA",
+            "max_level": 8,
+            "afecta_vida": false,
+            "habilidades": [
+                {
+                    "nombre": "Arte",
+                    "max_level": 10,
+                    "descripcion": "",
+                    "afecta_vida": false
+                },
+                {
+                    "nombre": "Expresión",
+                    "max_level": 10,
+                    "descripcion":"",
+                    "afecta_vida": false
+                },
+                {
+                    "nombre": "Liderazgo",
+                    "max_level":10,
+                    "descripcion": "",
+                    "afecta_vida": false
+                },
+                {
+                    "nombre": "Negociación",
+                    "max_level":10,
+                    "descripcion": "",
+                    "afecta_vida": false
+                },
+                {
+                    "nombre": "Seducción",
+                    "max_level":10,
+                    "descripcion": "",
+                    "afecta_vida": false
+                }
+                
+            ]
+        },
+        {
+            "id": 4,
+            "nombre": "INTELECTO",
+            "max_level": 8,
+            "afecta_vida": false,
+            "habilidades": [
+                {
+                    "nombre": "Artefactos",
+                    "max_level": 10,
+                    "descripcion": "",
+                    "afecta_vida": false
+                },
+                {
+                    "nombre": "Ciencia",
+                    "max_level": 10,
+                    "descripcion":"",
+                    "afecta_vida": false
+                },
+                {
+                    "nombre": "Concentración",
+                    "max_level":10,
+                    "descripcion": "",
+                    "afecta_vida": false
+                },
+                {
+                    "nombre": "Ingeniería",
+                    "max_level":10,
+                    "descripcion": "",
+                    "afecta_vida": false
+                },
+                {
+                    "nombre": "Medicina",
+                    "max_level":10,
+                    "descripcion": "",
+                    "afecta_vida": false
+                }
+                
+            ]
+        },
+        {
+            "id": 5,
+            "nombre": "PSIQUE",
+            "max_level": 8,
+            "afecta_vida": false,
+            "habilidades": [
+                {
+                    "nombre": "Astucia",
+                    "max_level": 10,
+                    "descripcion": "",
+                    "afecta_vida": false
+                },
+                {
+                    "nombre": "Dominación",
+                    "max_level": 10,
+                    "descripcion":"",
+                    "afecta_vida": false
+                },
+                {
+                    "nombre": "Engaño",
+                    "max_level":10,
+                    "descripcion": "",
+                    "afecta_vida": false
+                },
+                {
+                    "nombre": "Fe",
+                    "max_level":10,
+                    "descripcion": "",
+                    "afecta_vida": false
+                },
+                {
+                    "nombre": "Voluntad",
+                    "max_level":10,
+                    "descripcion": "",
+                    "afecta_vida": false
+                }
+                
+            ]
+        },
+        {
+            "id": 6,
+            "nombre": "INSTINTO",
+            "max_level": 8,
+            "afecta_vida": false,
+            "habilidades": [
+                {
+                    "nombre": "Empatía",
+                    "max_level": 10,
+                    "descripcion": "",
+                    "afecta_vida": false
+                },
+                {
+                    "nombre": "Orientación",
+                    "max_level": 10,
+                    "descripcion":"",
+                    "afecta_vida": false
+                },
+                {
+                    "nombre": "Percepción",
+                    "max_level":10,
+                    "descripcion": "",
+                    "afecta_vida": false
+                },
+                {
+                    "nombre": "Primordial",
+                    "max_level":10,
+                    "descripcion": "",
+                    "afecta_vida": false
+                },
+                {
+                    "nombre": "Supervivencia",
+                    "max_level":10,
+                    "descripcion": "",
+                    "afecta_vida": false
+                }
+                
+            ]
+        }
+    ]
+        
+}
