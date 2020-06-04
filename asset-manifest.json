@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/fichas-ewok/static/css/main.40d575be.chunk.css",
-    "main.js": "/fichas-ewok/static/js/main.d71bdf1e.chunk.js",
-    "main.js.map": "/fichas-ewok/static/js/main.d71bdf1e.chunk.js.map",
+    "main.js": "/fichas-ewok/static/js/main.f4af262f.chunk.js",
+    "main.js.map": "/fichas-ewok/static/js/main.f4af262f.chunk.js.map",
     "runtime-main.js": "/fichas-ewok/static/js/runtime-main.e19eac07.js",
     "runtime-main.js.map": "/fichas-ewok/static/js/runtime-main.e19eac07.js.map",
     "static/js/2.a52ce2b2.chunk.js": "/fichas-ewok/static/js/2.a52ce2b2.chunk.js",
     "static/js/2.a52ce2b2.chunk.js.map": "/fichas-ewok/static/js/2.a52ce2b2.chunk.js.map",
     "index.html": "/fichas-ewok/index.html",
-    "precache-manifest.b540baa9a3b16cb200451f6aedea8ad3.js": "/fichas-ewok/precache-manifest.b540baa9a3b16cb200451f6aedea8ad3.js",
+    "precache-manifest.de7f43bbc3d5a0fde6b2b7b70de239f6.js": "/fichas-ewok/precache-manifest.de7f43bbc3d5a0fde6b2b7b70de239f6.js",
     "service-worker.js": "/fichas-ewok/service-worker.js",
     "static/css/main.40d575be.chunk.css.map": "/fichas-ewok/static/css/main.40d575be.chunk.css.map",
     "static/js/2.a52ce2b2.chunk.js.LICENSE.txt": "/fichas-ewok/static/js/2.a52ce2b2.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.e19eac07.js",
     "static/js/2.a52ce2b2.chunk.js",
     "static/css/main.40d575be.chunk.css",
-    "static/js/main.d71bdf1e.chunk.js"
+    "static/js/main.f4af262f.chunk.js"
   ]
 }
