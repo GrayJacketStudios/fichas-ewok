@@ -6,7 +6,7 @@ export default function PanelPrincipal() {
 
     const [puntosAtributos, setpuntosAtributos] = useState(20)
     const [puntosHabilidades, setpuntosHabilidades] = useState(40)
-    const [vidaPJ, setvidaPJ] = useState(2)
+    const [vidaPJ, setvidaPJ] = useState(0)
     
     return (
         <div className="panelPrincipal">

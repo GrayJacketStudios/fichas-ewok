@@ -3,12 +3,12 @@ import Habilidad from './Habilidad'
 
 export default function BoxAtributo(props) {
     
-    const [nivel, setnivel] = useState(1)
+    const [nivel, setnivel] = useState(0)
 
     let handleNivel = (val) => {
         let temp = nivel+val;
-        if(temp > 0 && temp <= props.maxNivel)
-            if(val > 0 && props.PA > 0){
+        if(temp >= 0 && temp <= props.maxNivel)
+            if(val > 0 && props.PA >= 0){
                 props.editPA(props.PA-1);
                 setnivel(temp);
                 if(props.afecta_vida)
