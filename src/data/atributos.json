@@ -2,39 +2,39 @@
     "atributos": [
         {
             "id": 1,
-            "nombre": "Cuerpo",
-            "descripcion": "Cuerpo representa la fuerza física, la tenacidad y el vigor. Las personas con un valor elevado del atributo Cuerpo resisten mejor el castigo físico y se recuperan más rápido. Impresionan a sus enemigos con su presencia física. Los que se mantienen en forma pueden llevar una carga más pesada sobre sus hombros. Este atributo les permite sobrevivir más tiempo, resistir el dolor y utilizar su cuerpo como un arma.",
-            "max_level": 8,
-            "afecta_vida": true,
+            "nombre": "Intelecto",
+            "descripcion": "Para resolver acertijos, practicar ciencias, realizar deducciones y cosas así.",
+            "max_level": 10,
+            "afecta_vida": false,
             "habilidades": [
                 {
-                    "nombre": "Cuerpo a cuerpo",
+                    "nombre": "Advertir/Notar",
                     "max_level": 10,
-                    "descripcion": "ACCIONES: Usar armas cuerpo a cuerpo como hachas, espadas, lanzas, mazas, puños, piernas, etc.",
+                    "descripcion": "Darte cuenta de cosas o descubrir anomalías en tu entorno.",
                     "afecta_vida": false
                 },
                 {
-                    "nombre": "Atletismo",
+                    "nombre": "Deducción",
                     "max_level": 10,
-                    "descripcion":"ACCIONES: Correr, trepar, saltar, nadar, superar obstáculos, cubrir distancias, recuperar el equilibrio, escapar de situaciones peligrosas.",
+                    "descripcion":"La habilidad de inferir una conclusión a partir de las pistas que hay a tu alcance.",
                     "afecta_vida": false
                 },
                 {
-                    "nombre": "Fuerza",
+                    "nombre": "Saber de criaturas",
                     "max_level":10,
-                    "descripcion": "ACCIONES: Doblar cosas, romper cadenas, abrir puertas de una patada, realizar demostraciones de fuerza (echar pulsos), inmovilizar a alguien, mantener una puerta cerrada...",
+                    "descripcion": "Habilidad para discernir información sobre las distintas criaturas del mundo.",
                     "afecta_vida": false
                 },
                 {
-                    "nombre": "Resistencia",
+                    "nombre": "Supervivencia",
                     "max_level":10,
-                    "descripcion": "ACCIONES: Aguantar el dolor y las condiciones ambientales, resistir la tortura.",
+                    "descripcion": "Sobrevivir en campo abierto y localizar una presa.",
                     "afecta_vida": true
                 },
                 {
-                    "nombre": "Vigor",
+                    "nombre": "Saber Arcano",
                     "max_level":10,
-                    "descripcion": "ACCIONES: Bucear, marchar durante horas, huir, contener la respiración, resistir enfermedades, envenenamiento y cansancio, hacer guardia durante varias noches.",
+                    "descripcion": "Identificar, conocer e interactuar con historia y situaciones de estilo arcano o mágico.",
                     "afecta_vida": false
                 }
                 
@@ -42,202 +42,201 @@
         },
         {
             "id": 2,
-            "nombre": "Agilidad",
-            "descripcion": "La fuerza sin control no sirve de nada. Las personas con un alto valor de Agilidad son más diestras y pueden esquivar peligros, manipular mecanismos complejos y matar a sus enemigos con armas de fuego a larga distancia.",
-            "max_level": 8,
+            "nombre": "Reflejos",
+            "descripcion": "Para luchar, esquivar y otras tareas que requieran reacciones rápidas.",
+            "max_level": 10,
             "afecta_vida": false,
             "habilidades": [
                 {
-                    "nombre": "Armas de Proyectiles",
+                    "nombre": "Esquivar/Zafarse",
                     "max_level": 10,
-                    "descripcion": "ACCIONES: Usar armas de proyectiles, mantenimiento de las armas.",
+                    "descripcion": "Esquivar ataques y proyectiles y liberarse de presas.",
                     "afecta_vida": false
                 },
                 {
-                    "nombre": "Destreza",
+                    "nombre": "Navegar",
                     "max_level": 10,
-                    "descripcion":"ACCIONES: Robar, trucos de manos (dados, monedas cargadas, juegos de manos, juegos de azar...), mantener una mano firme o coger objetos al vuelo, abrir cerradoras o desactivar trampas.",
+                    "descripcion":"Pilotar barcos y controlar embarcaciones marítimas.",
                     "afecta_vida": false
                 },
                 {
-                    "nombre": "Fabricar",
+                    "nombre": "Pelea",
                     "max_level":10,
-                    "descripcion": "ACCIONES: Reparar equipo, reutilizar piezas, erigir defensas, encontrar los puntos débiles de una estructura.",
+                    "descripcion": "La capacidad de luchar cuerpo a cuerpo con armas y tu propio cuerpo.",
+                    "afecta_vida": false
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "nombre": "Destreza",
+            "descripcion": "Para ataques a distancia y para cualquier otra cosa que requiera equilibrio o coordinación mano-ojo.",
+            "max_level": 10,
+            "afecta_vida": false,
+            "habilidades": [
+                {
+                    "nombre": "Puntería",
+                    "max_level": 10,
+                    "descripcion": "Disparar con arco, ballestas o armas arrojadizas.",
                     "afecta_vida": false
                 },
                 {
-                    "nombre": "Movilidad",
-                    "max_level":10,
-                    "descripcion": "ACCIONES: Carrera acrobática, saltar, esquivar, escapismo, moverse a través de una multitud.",
+                    "nombre": "Juego de manos",
+                    "max_level": 10,
+                    "descripcion":"Realizar trucos de prestidigitación, hacer aparecer y desaparecer objetos pequeños y deslizar cosas en bolsillos ajenos.",
                     "afecta_vida": false
                 },
                 {
                     "nombre": "Sigilo",
                     "max_level":10,
-                    "descripcion": "ACCIONES: Ocultarse, ocultar objetos, acechar, seguir a escondidas, camuflarse, controlar el corazón y la respiración, fingir la muerte.",
+                    "descripcion": "Moverte en silencio en tu entorno y actuar sin ser percibido.",
+                    "afecta_vida": false
+                },
+                {
+                    "nombre": "Parada/Bloqueo",
+                    "max_level":10,
+                    "descripcion": "Usar un arma o un escudo para evitar ataques.",
                     "afecta_vida": false
                 }
-                
-            ]
-        },
-        {
-            "id": 3,
-            "nombre": "CARISMA",
-            "descripcion": "Las personas con carisma impresionan con su presencia genuina. No necesitan fingir que son queridos o adorados. Otros les siguen convencidos y por devoción. El Carisma abre puertas en el mundo: la diplomacia, la negociación y la unidad requieren de personas con Carisma que destaquen entre la multitud y sean líderes capaces.",
-            "max_level": 8,
-            "afecta_vida": false,
-            "habilidades": [
-                {
-                    "nombre": "Arte",
-                    "max_level": 10,
-                    "descripcion": "ACCIONES: Bailar, tocar música, pintar cuadros, leer el tarot, escribir poesía, narrar cuentos, modelar y esculpir esculturas.",
-                    "afecta_vida": false
-                },
-                {
-                    "nombre": "Expresión",
-                    "max_level": 10,
-                    "descripcion":"ACCIONES: Expresarse con el lenguaje corporal, hablar en público, hacer signos con las manos, leer expresiones faciales.",
-                    "afecta_vida": false
-                },
-                {
-                    "nombre": "Liderazgo",
-                    "max_level":10,
-                    "descripcion": "ACCIONES: Infundir ánimos, propaganda, liderar grupos, elevar la moral, evitar motines.",
-                    "afecta_vida": false
-                },
-                {
-                    "nombre": "Negociación",
-                    "max_level":10,
-                    "descripcion": "ACCIONES: Diplomacia, regateo, persuasión, elaboración de contratos, reconocer contratos abusivos.",
-                    "afecta_vida": false
-                },
-                {
-                    "nombre": "Seducción",
-                    "max_level":10,
-                    "descripcion": "ACCIONES: Seducir, coquetear, favores sexuales, sacar información a otros, resistirse al coqueteo, resistirse a la adulación, reconocer y contrarrestrar seducciones.",
-                    "afecta_vida": false
-                }
-                
             ]
         },
         {
             "id": 4,
-            "nombre": "INTELECTO",
-            "descripcion": "Un intelecto entrenado y agudo facilita el pensamiento abstracto y una profunda concentración. Ambos son esenciales para la comprensión y el uso de la tecnología o la ciencia. Un pensador inteligente puede absorber y recordar rápidamente conocimientos de diversas fuentes. Intelecto significa planificación y previsión, acción meditada y una profunda percepción de las consecuencias.",
-            "max_level": 8,
+            "nombre": "Tipo Corporal(TCO)",
+            "descripcion": "Para cosas que requieran mucha fuerza o resistencia física.",
+            "max_level": 10,
             "afecta_vida": false,
             "habilidades": [
                 {
-                    "nombre": "Artefactos",
+                    "nombre": "Proezas de fuerza",
                     "max_level": 10,
-                    "descripcion": "ACCIONES: Identificar, usar, reparar y modificar artefactos.",
+                    "descripcion": "Levantar, rasgar y doblar objetos pesados y duros. ",
                     "afecta_vida": false
                 },
                 {
-                    "nombre": "Ciencia",
+                    "nombre": "Resistencia",
                     "max_level": 10,
-                    "descripcion":"ACCIONES: Conocimientos científicos, conocimientos de matemáticas, mezclar explosivos, descubrir errores de lógica, calcular la resistencia de paredes o puertas, anticipar el resultado de reacciones químicas.",
+                    "descripcion":"Soportar la fatiga, la tortura y las drogas.",
                     "afecta_vida": false
                 },
                 {
-                    "nombre": "Concentración",
+                    "nombre": "Atletismo",
                     "max_level":10,
-                    "descripcion": "ACCIONES: Rendimiento mental, meditación, concentración, superar las dudas, autocontrol, vencer temores, realentizar la respiración, uso de la magia.",
+                    "descripcion": "La habilidad necesaria para escalar, mantener el equilibrio, correr o nadar.",
                     "afecta_vida": false
-                },
-                {
-                    "nombre": "Ingeniería",
-                    "max_level":10,
-                    "descripcion": "ACCIONES: Comprender y manipular mecanismos, mejorar equipos tecnológicos, identificar tecnología, evaluar daños o puntos débiles.",
-                    "afecta_vida": false
-                },
-                {
-                    "nombre": "Medicina",
-                    "max_level":10,
-                    "descripcion": "ACCIONES: Diagnosticar y curar enfermedades, elaborar medicamentos, recoger hierbas curativas, tratar heridas, prevenir enfermedades, reconocer sustancias peligrosas.",
-                    "afecta_vida": false
-                }
-                
+                }                
             ]
         },
         {
             "id": 5,
-            "nombre": "PSIQUE",
-            "descripcion": "La psique es la hoguera que mantiene la temperatura interna de la mente, que alimenta nuestra voluntad y nuestra fe. La Psique es fuerza mental, la hermana menos querida del intelecto. También se ocupa de la mentira y el engaño, la intimidación y la superioridad mental. El poder de la Psique se utiliza para limitar la influencia del Elemental y sobrepasar los límites de las propias capacidades.",
-            "max_level": 8,
+            "nombre": "Empatía",
+            "descripcion": "Para asuntos sociales y emocionales.",
+            "max_level": 10,
             "afecta_vida": false,
             "habilidades": [
                 {
-                    "nombre": "Astucia",
+                    "nombre": "Carisma",
                     "max_level": 10,
-                    "descripcion": "ACCIONES: Planificar, improvisar, distraer, buscar ventajas, utilizar subterfugios, tomar la iniciativa, sentir posibles peligros.",
-                    "afecta_vida": false
-                },
-                {
-                    "nombre": "Dominación",
-                    "max_level": 10,
-                    "descripcion":"ACCIONES: Intimidar, torturar, aterrorizar, subyugar, luchar contra las influencias, implementar una jerarquía.",
+                    "descripcion": "Llevarse bien con la gente y convencerles de tus ideas.",
                     "afecta_vida": false
                 },
                 {
                     "nombre": "Engaño",
-                    "max_level":10,
-                    "descripcion": "ACCIONES: Fingir ser otra persona, disfrazar la voz y la apariencia, falsificar documentos y objetos, mentir y farolear.",
+                    "max_level": 10,
+                    "descripcion":"Mentir y confabular.",
                     "afecta_vida": false
                 },
                 {
-                    "nombre": "Fe",
+                    "nombre": "Interpretar",
                     "max_level":10,
-                    "descripcion": "ACCIONES: Conocimiento religioso, predicación, inspiración, permanecer mentalmente fuerte a través de la fe.",
+                    "descripcion": "Tocar instrumentos, cantar y actuar.",
                     "afecta_vida": false
                 },
                 {
-                    "nombre": "Voluntad",
+                    "nombre": "Percepción humana",
                     "max_level":10,
-                    "descripcion": "ACCIONES: Autocontrol, tenacidad, perseverancia, austeridad, detener la superstición, repeler la manipulación.",
+                    "descripcion": "Leer las emociones de las personas y sus intenciones.",
+                    "afecta_vida": false
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "nombre": "Técnica",
+            "descripcion": "Para manejar maquinaria y elaborar cosas con precisión.",
+            "max_level": 10,
+            "afecta_vida": false,
+            "habilidades": [
+                {
+                    "nombre": "Abrir cerraduras",
+                    "max_level": 10,
+                    "descripcion": "Abrir cierres sin tener la llave.",
+                    "afecta_vida": false
+                },
+                {
+                    "nombre": "Artesanía",
+                    "max_level": 10,
+                    "descripcion":"Fabricar y arreglar armas y armaduras.",
+                    "afecta_vida": false
+                },
+                {
+                    "nombre": "Disfraz",
+                    "max_level":10,
+                    "descripcion": "Para disfrazarte tú o a otra persona y así pasar por otro.",
+                    "afecta_vida": false
+                },
+                {
+                    "nombre": "Preparar trampas",
+                    "max_level":10,
+                    "descripcion": "Elaborar trampas improvisadas y desactivar otras.",
+                    "afecta_vida": false
+                },
+                {
+                    "nombre": "Primeros auxilios/Herboristería",
+                    "max_level":10,
+                    "descripcion": "Detener hemorroides, reducir fracturas y tratar envenenamientos.",
                     "afecta_vida": false
                 }
                 
             ]
         },
         {
-            "id": 6,
-            "nombre": "INSTINTO",
-            "descripcion": "El instinto nos ha ayudado a sobrevivir cuando el idioma o las reglas no tenían esa capacidad, pero necesitábamos permanecer unidos de todos modos. El instinto guía nuestras reacciones rudimentarias a las influencias externas y da rienda suelta a la bestia interior. En un mundo sin ningún tipo de mesura, el Instinto garantiza la supervivencia.",
-            "max_level": 8,
+            "id": 7,
+            "nombre": "Voluntad",
+            "descripcion": "Para intimidación, habilidades mágicas y resistencia mental.",
+            "max_level": 10,
             "afecta_vida": false,
             "habilidades": [
                 {
-                    "nombre": "Empatía",
+                    "nombre": "Coraje",
                     "max_level": 10,
-                    "descripcion": "ACCIONES: Conectar con los demás, psicología, ver la verdad tras las emociones, determinar la actitud y disposición del interlocutor.",
+                    "descripcion": "La capacidad para resistir el miedo.",
                     "afecta_vida": false
                 },
                 {
-                    "nombre": "Orientación",
+                    "nombre": "Elaborar rituales",
                     "max_level": 10,
-                    "descripcion":"ACCIONES: Encontrar a alguien o algo en el campo, dibujar y leer mapas, evitar perderse en las tormentas, recordar a ciegas el camino cuando se es víctima de un secuestro.",
+                    "descripcion": "Magia y cánticos rituales.",
                     "afecta_vida": false
                 },
                 {
-                    "nombre": "Percepción",
-                    "max_level":10,
-                    "descripcion": "ACCIONES: Encontrar objetos o advertir cosas ocultas, espiar detrás de las puertas, advertir acontecimientos repentinos a tiempo, detectar emboscadas, oír u oler enemigos al acecho.",
+                    "nombre": "Intimidar",
+                    "max_level": 10,
+                    "descripcion": "Asustar a los demás, ya sea para ahuyentarlos o para que hagan algo para ti.",
                     "afecta_vida": false
                 },
                 {
-                    "nombre": "Primordial",
-                    "max_level":10,
-                    "descripcion": "ACCIONES: Enfurecerse, intimidar a los enemigos, suprimir temores racionales, seguir los instintos salvajes de supervivencia en situaciones de crisis.",
+                    "nombre": "Lanzar hechizos",
+                    "max_level": 10,
+                    "descripcion": "Utilizar magia en forma de hechizos y sus variantes más sencillas.",
                     "afecta_vida": false
                 },
                 {
-                    "nombre": "Supervivencia",
-                    "max_level":10,
-                    "descripcion": "ACCIONES: Cazar, recolectar, rastrear, hacer fuego, colocar trampas, sentir peligros en los páramos (venenos o trampas), encontrar algo o alguien en un campo, evitar perderse.",
+                    "nombre": "Resistir magia",
+                    "max_level": 10,
+                    "descripcion": "Resistir la influencia de la magia en ti.",
                     "afecta_vida": false
                 }
-                
             ]
         }
     ]
