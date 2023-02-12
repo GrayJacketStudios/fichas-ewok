@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5a2fc7ac2cd21321bc7d218d8b7f6e48",
+    "revision": "7786b9d9ff1d2400023e5ca9fd8fdbd7",
     "url": "/fichas-ewok/index.html"
   },
   {
-    "revision": "f8f28380d931128141af",
+    "revision": "ec60574215be5cdfc030",
     "url": "/fichas-ewok/static/css/main.9a2072a8.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fichas-ewok/static/js/2.a52ce2b2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f8f28380d931128141af",
-    "url": "/fichas-ewok/static/js/main.3fbfe087.chunk.js"
+    "revision": "ec60574215be5cdfc030",
+    "url": "/fichas-ewok/static/js/main.94a22620.chunk.js"
   },
   {
     "revision": "720d032428cc838dc97f",
