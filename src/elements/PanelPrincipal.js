@@ -4,13 +4,12 @@ import BoxAtributo from './BoxAtributo';
 
 export default function PanelPrincipal() {
 
-    const [puntosAtributos, setpuntosAtributos] = useState(24)
-    const [puntosHabilidades, setpuntosHabilidades] = useState(40)
-    const [vidaPJ, setvidaPJ] = useState(0)
+    const [puntosAtributos, setpuntosAtributos] = useState(32)
+    const [puntosHabilidades, setpuntosHabilidades] = useState(45)
     
     return (
         <div className="panelPrincipal">
-            <p>Vida: <b>{vidaPJ*5}</b>  |  Puntos atributos disponible: <b>{puntosAtributos}</b>  |  Puntos habilidad disponible: <b>{puntosHabilidades}</b></p>
+            <p>Puntos atributos disponible: <b>{puntosAtributos}</b>  |  Puntos habilidad disponible: <b>{puntosHabilidades}</b></p>
             {
                 dataJson.atributos.map((atributo) => (
             
@@ -23,9 +22,6 @@ export default function PanelPrincipal() {
                         editPH={(val) => setpuntosHabilidades(val)}
                         PA={puntosAtributos}
                         PH={puntosHabilidades}
-                        afecta_vida={atributo.afecta_vida}
-                        vida={vidaPJ}
-                        editVida={setvidaPJ}
                         habilidades={atributo.habilidades}
                         
                     />

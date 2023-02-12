@@ -9,14 +9,10 @@ export default function Habilidad(props) {
            if(props.PH > 0 && val > 0){
             setNivel(temp)
             props.editPH(props.PH-1)
-            if(props.afecta_vida)
-                props.editVida(props.vida+val)
            }
-           else if(props.PH <= 40 && val < 0){
+           else if(props.PH <= 45 && val < 0){
             setNivel(temp)
             props.editPH(props.PH+1)
-            if(props.afecta_vida)
-                props.editVida(props.vida+val)
            }
             
         }

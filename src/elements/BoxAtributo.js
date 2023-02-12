@@ -14,7 +14,7 @@ export default function BoxAtributo(props) {
                 if(props.afecta_vida)
                     props.editVida(props.vida+1)
             }
-            else if(val < 0 && props.PA <= 24){
+            else if(val < 0 && props.PA <= 32){
                 props.editPA(props.PA+1)
                 setnivel(temp)
                 if(props.afecta_vida)
